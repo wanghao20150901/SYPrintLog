@@ -1,0 +1,16 @@
+PODS:
+  - SYPrintLog (0.1.0)
+
+DEPENDENCIES:
+  - SYPrintLog (from `../`)
+
+EXTERNAL SOURCES:
+  SYPrintLog:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SYPrintLog: 196b9de5af62e76370c247534c983aa0a6b3c704
+
+PODFILE CHECKSUM: 97f9ff6b5c34310387e9607473381bba13d615db
+
+COCOAPODS: 1.9.1

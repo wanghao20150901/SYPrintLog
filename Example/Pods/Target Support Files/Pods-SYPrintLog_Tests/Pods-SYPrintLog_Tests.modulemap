@@ -1,0 +1,6 @@
+framework module Pods_SYPrintLog_Tests {
+  umbrella header "Pods-SYPrintLog_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

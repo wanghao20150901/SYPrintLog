@@ -1,0 +1,6 @@
+framework module SYPrintLog {
+  umbrella header "SYPrintLog-umbrella.h"
+
+  export *
+  module * { export * }
+}
