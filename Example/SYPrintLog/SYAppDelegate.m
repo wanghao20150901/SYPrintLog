@@ -7,12 +7,22 @@
 //
 
 #import "SYAppDelegate.h"
+#import <SYPrintLog/SYPrintAppLog.h>
 
 @implementation SYAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    NSLog(@"test, 未开启log保存，log正常输出在控制台");
+    
+    [SYPrintAppLog start];
+    
+    NSLog(@"hello log");
+    NSLog(@"test, 开启log保存，log保存在log文件中，控制台不在输出内容");
+    NSLog(@"test end!");
+    
     return YES;
 }
 

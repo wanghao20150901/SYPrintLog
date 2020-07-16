@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "SYPrintAppLog.h"
 
 FOUNDATION_EXPORT double SYPrintLogVersionNumber;
 FOUNDATION_EXPORT const unsigned char SYPrintLogVersionString[];

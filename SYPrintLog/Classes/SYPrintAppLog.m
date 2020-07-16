@@ -33,6 +33,9 @@ static int SY_MAX_LOGFILESAVETIME = 4;//日志保留时间  单位:天
 
     if (filePath) {
         NSLog(@"Log print to file initialization SUCCESS!");
+        NSLog(@"Foler path :%@",folerPath);
+        NSLog(@"Log path :%@",filePath);
+        NSLog(@"Log 保存在log文件中，控制台不会再输出log");
         freopen([filePath cStringUsingEncoding:NSASCIIStringEncoding],"a+", stdout);
         freopen([filePath cStringUsingEncoding:NSASCIIStringEncoding],"a+", stderr);
     }else{
